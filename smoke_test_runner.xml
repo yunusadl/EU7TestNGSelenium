@@ -1,0 +1,24 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="VyTrack Automation" verbose="1">
+    <test name="Vytrack Smoke Test">
+
+        <packages>
+
+            <package name="com.cybertek.tests.day11_web_tables"></package>
+            <package name="com.cybertek.tests.day13_pom"></package>
+            <package name="com.cybertek.tests.day_15_review"></package>
+
+        </packages>
+
+        <classes>
+            <class name="com.cybertek.tests.day12_properties_driver_tests.AnotherLoginTest"></class>
+            <class name="com.cybertek.tests.day12_properties_driver_tests.LoginTest">
+
+            </class>
+
+        </classes>
+
+
+    </test>
+</suite>
