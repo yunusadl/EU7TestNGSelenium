@@ -51,7 +51,7 @@ public class SelectDropDownTest {
 
         Select stateDropDown = new Select(dropDownElement);
 
-        List<WebElement> options = stateDropDown.getOptions();
+        List<WebElement> options = stateDropDown.getOptions(); // returns a list
 
         System.out.println("options.size() = " + options.size());
 

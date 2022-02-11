@@ -10,7 +10,7 @@ import org.openqa.selenium.support.PageFactory;
 
 import java.util.List;
 
-public class LoginPage {
+public class LoginPage extends BasePage {
 
     public LoginPage(){
 

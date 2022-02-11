@@ -224,7 +224,7 @@ public class WebTablesExample {
 
     @Test
 
-    public void getCellInRelationToAnotherCell(){
+    public void getCellInRelationToAnotherCell(){ //************IMPORTANT CONCEPT********************
 
         String firstName = "Jason";
 

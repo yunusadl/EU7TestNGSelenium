@@ -83,6 +83,8 @@ public class ActionsTest {
 
         Actions actions = new Actions(driver);
 
+        //*********************** GOOD SOLUTION**********************************
+
         List<WebElement> acceptAndClose = driver.findElements(By.xpath("//*[.='Accept and Close']"));
         List<WebElement> acceptCookies = driver.findElements(By.xpath("//*[.='Accept Cookies']"));
 
@@ -99,7 +101,6 @@ public class ActionsTest {
 
 
 
-
         driver.findElement(By.xpath("//button[@id='onetrust-accept-btn-handler']")).click();
 
         Thread.sleep(2000);
@@ -110,6 +111,8 @@ public class ActionsTest {
 
 
         actions.dragAndDrop(source,target).perform();
+
+
 
 
 
@@ -148,6 +151,9 @@ public class ActionsTest {
         Thread.sleep(2000);
 
         actions.moveToElement(source).clickAndHold().moveToElement(target).pause(2000).release().perform();
+
+
+
 
 
 
